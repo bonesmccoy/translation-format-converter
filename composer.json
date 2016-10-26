@@ -1,0 +1,15 @@
+{
+  "name": "translation-converter",
+  "license": "MIT",
+  "type": "project",
+  "description": "Translation converter from xliff to yaml",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": { "Bones\\": "src/" }
+  },
+  "require": {
+    "php": ">=5.4",
+    "jms/translation-bundle": "@stable",
+    "symfony/console": "2.8.*"
+  }
+}

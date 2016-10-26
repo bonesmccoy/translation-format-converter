@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__.'/../vendor/autoload.php';
+
+use Bones\TranslationFormatConverter\Console\Application;
+use Bones\TranslationFormatConverter\Command\ConvertFormatCommand;
+
+$application = new Application();
+$application->add(new ConvertFormatCommand());
+$application->run();
